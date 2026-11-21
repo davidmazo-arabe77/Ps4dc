@@ -1,19 +1,20 @@
+
 html {
     background-image: url('img.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-color: #24272b;
-    color: white;
+    background-color: #080817;
+    color: #ffffff;
     text-align: center;
     overflow: hidden;
 }
 
 h1 {
-    text-shadow: 0.1em 0.1em 0.2em black;
+    text-shadow: 0 0 10px #8b2cff, 0.1em 0.1em 0.2em black;
     font-size: 25px;
-    color: white;
+    color: #eee5ff;
 }
 
 a {
@@ -45,7 +46,7 @@ a {
 }
 
 .btn {
-    background-color: #003263;
+    background: linear-gradient(135deg, #241044, #10234d);
     color: white;
     width: 227px;
     height: 46px;
@@ -56,36 +57,44 @@ a {
     margin-bottom: 8px;
     margin-left: 5px;
     margin-right: 5px;
-    border-style: none;
+    border: 1px solid #873cff;
     transition-duration: 0.4s;
     cursor: pointer;
-    border-radius: 4px;
+    border-radius: 6px;
+    box-shadow: 0 0 9px #762aff55;
 }
 
 .btn:hover {
-    background-color: #0069d9;
+    background: linear-gradient(135deg, #7025c9, #0069d9);
+    border-color: #00baff;
+    box-shadow: 0 0 15px #963cff, 0 0 25px #007bff66;
 }
 
 .btn-onln {
-    background-color: #076300;
+    background: linear-gradient(135deg, #321064, #153b75);
+    border-color: #a020f0;
 }
 
 .btn-onln:hover {
-    background-color: #18891b;
+    background: linear-gradient(135deg, #8125d9, #0069d9);
+    border-color: #00d5ff;
 }
 
 .btn-toolbox {
-    background-color: #ae2301;
+    background: linear-gradient(135deg, #32105c, #182b64);
+    border-color: #9b40ff;
 }
 
 .btn-toolbox:hover {
-    background-color: #d42a01;
+    background: linear-gradient(135deg, #8b20d9, #164bba);
 }
 
 .btn-multi {
-    background-color: #b8860b;
+    background: linear-gradient(135deg, #452078, #073e80);
+    border-color: #00baff;
 }
 
 .btn-multi:hover {
-    background-color: #daa520;
+    background: linear-gradient(135deg, #852bdf, #007bff);
+    border-color: #b98aff;
 }
